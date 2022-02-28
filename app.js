@@ -13,7 +13,7 @@ const fetchSelect = async function () {
      const {
        name: { common  }
      } = e;
-console.log( common);
+ 
      formSelect.innerHTML += `<option>${Object.values(common).join("")}</option>`;
   })
  
